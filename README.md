@@ -1,4 +1,5 @@
 [![Python application](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml/badge.svg)](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml)
+[![HTML Validation](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/html-validation.yml/badge.svg)](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/html-validation.yml)
 
 # GIT WORKSHOP
 
@@ -91,6 +92,8 @@ Ved å kun skrive "def" uten å skrive en funksjon, vil vi få en flake8-feil. P
 ## La oss lage en ny action!
 Vi skal nå lage en ny action som tester at en html-side fungerer som den skal. Vi skal bruke en html-validator til å sjekke at html-siden vår er skrevet riktig.
 
+Før vi begynner, skrur vi av python-actionen vi lagde tidligere. Dette gjør vi ved å gå inn på github-siden din, trykke på "Actions" i menyen, og deretter på "Python application". Trykk på "Disable workflow" øverst til høyre.
+
 1. Gå til VSCode, og lag en ny fil som heter "index.html". Skriv inn følgende kode:
 ```html
 <!DOCTYPE html>
@@ -140,7 +143,7 @@ jobs:
       - name: Validate HTML
         run: html-validator --verbose --file ./index.html
 ```
-4. Trykk på "Commit changes" for å lagre filen.
+4. Trykk på "Commit changes" for å lagre filen. Kall filen "html-validation.yml".
 5. Når du har lagt til actionen, begynner github automatisk å kjøre testene for deg. Du kan se resultatet av testene ved å trykke på "Actions" i menyen, og deretter på "HTML Validation". Her kan du se at testene kjørte, og at de var vellykkede. Så lenge du ikke har endret noe i koden, skal testene være vellykkede.
 
 6. Gå til actions-fanen og finn "HTML  Validation". Trykk på de tre prikkene øverst til høyre, og velg "Create status badge". Kopier koden som dukker opp og lim den inn øverst i README.md under din første badge. Trykk på "Commit" for å lagre endringene.
