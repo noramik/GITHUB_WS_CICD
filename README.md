@@ -1,3 +1,5 @@
+[![Python application](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml/badge.svg)](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml)
+
 # GIT WORKSHOP
 
 ## Introduksjon
@@ -26,14 +28,15 @@ Vi skal også se på hvordn vi kan teste en html-side ved bruk av en html-valida
 1. Klon dette repoet til maskinen din ved å gå inn på EIK-lab sin github-side, finn dette repoet, og trykk på "fork" i øvre høyre hjørne. Dette lager en kopi av repoet på din egen github-konto.
 2. Når du har gjort dette, kan du trykke på "Code" og kopiere "HTTPS" URL-en til repoet ditt.
 3. Åpne Visual Studio Code, og trykk på "Clone GIT repository" i startvinduet. Lim inn URL-en til repoet ditt, og trykk enter.
-4. Nå bør du ha en kopi av repoet ditt på maskinen din. Du skal ha to filer i mappen:
+4. Nå bør du ha en kopi av repoet ditt på maskinen din. Du skal ha tre filer i mappen:
 - area.py: En python-fil som inneholder funksjoner som regner ut arealet av forskjellige figurer
 - test_area.py: En python-fil som inneholder tester for funksjonene.
+- README.md: En readme-fil som inneholder informasjon om repoet.
 
 ## La oss lage en github action!
 Vi skal nå lage en github action som tester at koden vår fungerer som den skal. Vi skal bruke pytest til å teste at funksjonene våre fungerer som de skal, og flake8 til å sjekke at koden vår følger PEP8-standardene.
 
-1. Vi gjør dette på den lette måten: Gå inn på github-siden din, og trykk på "Actions" i menyen. Trykk på "New workflow", og søk på "Python application", og trykk "Configure" når du finner filen.
+1. Vi gjør dette på den lette måten: Gå inn på github-siden din, og trykk på "Actions" i menyen.  Søk på "Python application", og trykk "Configure" når du finner filen.
 2. Ved å inspisere filen som dukker opp, kan vi se at github har laget en konfigurasjonsfil for oss. Det er hovedsakelig to ting denne filen gjør:
 - Den kjører en flake8-test for å sjekke at koden vår følger PEP8-standardene
 - Den kjører en pytest-test for å sjekke at funksjonene våre fungerer som de skal.
@@ -41,7 +44,7 @@ Vi skal nå lage en github action som tester at koden vår fungerer som den skal
 
 ## Liten bonus, legg til en pass/fail-badge
 Vi kan legge til en badge som viser om testene våre er vellykkede eller ikke. Dette gjør vi ved å legge til en liten kode i README.md.
-1. Gå til Actions-fanen på github-siden din, og trykk på "Python application". Helt øverst til høyre vil du se "...". Trykk på denne, og velg "Create status badge". Kopier koden som dukker opp.
+1. Gå til Actions-fanen på github-siden din, og trykk på "Python application" helt til venstre. Helt øverst til høyre vil du se "...". Trykk på denne, og velg "Create status badge". Kopier koden som dukker opp.
 2. Gå tilbake til VSCode, og åpne README.md. Lim inn koden du kopierte helt øverst i dokuentet, og trykk på "Commit" for å lagre endringene.
 3. Når du nå går tilbake til github-siden din, vil du se en badge øverst i README.md som viser om testene dine er vellykkede eller ikke.
 
