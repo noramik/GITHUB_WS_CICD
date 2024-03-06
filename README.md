@@ -1,6 +1,3 @@
-[![Python application](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml/badge.svg)](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/python-app.yml)
-[![HTML Validation](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/html-validation.yml/badge.svg)](https://github.com/Envestoren/GITHUB_WS_CICD/actions/workflows/html-validation.yml)
-
 # GIT WORKSHOP
 
 ## Introduksjon
@@ -163,7 +160,7 @@ Vi har nå laget en action som sjekker at html-siden vår er skrevet riktig. La 
 3. Velg "Deploy static content to page" workflow-filen, og trykk "Save"
 4. Vi trenger ikke å gjøre noe mer, github vil nå automatisk bygge og deploye nettsiden vår for oss. Du kan se statusen til byggingen ved å trykke på "Actions" i menyen, og deretter på "Deploy static content to page". Her kan du se at github bygger og deployer nettsiden din for deg.
 
-## Hvordan finne nett1siden din?
+## Hvordan finne nettsiden din?
 1. Trykk på innstillinger ved siden av about-fanen.
 2. Under "Website", huk av for "Use your GitHub website". 
 3. Du vil nå se en link under "about"
