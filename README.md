@@ -1,6 +1,3 @@
-[![Python application](https://github.com/Envestoren/GIT_workshop_2/actions/workflows/python-app.yml/badge.svg)](https://github.com/Envestoren/GIT_workshop_2/actions/workflows/python-app.yml)
-[![HTML Validation](https://github.com/Envestoren/GIT_workshop_2/actions/workflows/static.yml/badge.svg)](https://github.com/Envestoren/GIT_workshop_2/actions/workflows/static.yml)
-
 # GIT WORKSHOP
 
 ## Introduksjon
