@@ -1,6 +1,6 @@
 [![Python application](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/python-app.yml/badge.svg)](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/python-app.yml)
 
-
+[![HTML Validation](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/html-validation.yml/badge.svg)](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/html-validation.yml)
 # GIT WORKSHOP
 
 ## Introduksjon
