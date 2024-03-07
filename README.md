@@ -1,4 +1,6 @@
 [![Python application](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/python-app.yml/badge.svg)](https://github.com/noramik/GITHUB_WS_CICD/actions/workflows/python-app.yml)
+
+
 # GIT WORKSHOP
 
 ## Introduksjon
